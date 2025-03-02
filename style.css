@@ -130,7 +130,7 @@ color: #09760c;
 ul li::before{
     content: '';
     position: absolute;
-background-image: url("./assets/beforeCheck.png");
+background-image: url("beforeCheck.png");
 border-radius: 50%;
 height: 20px;
 width: 30px;
@@ -145,7 +145,7 @@ ul li.checked{
     text-decoration: line-through;
 }
 ul li.checked::before{
-    background-image: url("./assets/checked.png");
+    background-image: url("checked.png");
 }
 .deleteContainer{
     width: 10%;
